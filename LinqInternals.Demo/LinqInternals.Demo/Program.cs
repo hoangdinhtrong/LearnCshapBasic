@@ -10,8 +10,11 @@ namespace LinqInternals.Demo
             //// EXAMPLE ABOUT WHERE
             // ExampleWhereLinq();
 
-            // EXAMPLE ABOUT SELECT
-            ExampleSelectLinq();
+            //// EXAMPLE ABOUT SELECT
+            // ExampleSelectLinq();
+
+            // EXAMPLE ABOUT SELECT MANY
+            ExampleSelectManyLinq();
             Console.ReadLine();
         }
 
@@ -40,6 +43,20 @@ namespace LinqInternals.Demo
                     }
                 }
             };
+        }
+
+        private static void ExampleSelectManyLinq()
+        {
+            var customers = GetCustomers();
+            if (customers != null && customers.Count > 0)
+            {
+                var customerPhones = customers.NewSelectMany(x => x.Phones);
+                foreach (var item in customerPhones)
+                {
+                    if(item == null) continue;
+                    Console.WriteLine($"{item.Number} - {item.PhoneType}");
+                }
+            }
         }
 
         private static void ExampleSelectLinq()

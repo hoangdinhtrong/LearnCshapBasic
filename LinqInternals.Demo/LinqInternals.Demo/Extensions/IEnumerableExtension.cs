@@ -22,5 +22,17 @@
                 yield return selectors(item);
             }
         }
+
+        public static IEnumerable<TResult> NewSelectMany<T, TResult>(this IEnumerable<T> items,
+            Func<T, IEnumerable<TResult>> selectors)
+        {
+            foreach( var item in items)
+            {
+                foreach (var innerItem in selectors(item))
+                {
+                    yield return innerItem;
+                }
+            }
+        }
     }
 }
