@@ -34,5 +34,28 @@
                 }
             }
         }
+
+        public static IEnumerable<TResult> NewJoin<T, TH, TKey, TResult>(this IEnumerable<T> items,
+            IEnumerable<TH> innerItems,
+            Func<T, TKey> outerKeySelectors,
+            Func<TH, TKey> innerKeySelectors,
+            Func<T, TH, TResult> resultSelectors)
+        {
+            foreach (var item in items)
+            {
+                if (item == null) continue;
+
+                TKey? outerKey = outerKeySelectors(item);
+                if(outerKey == null) continue;
+
+                foreach (var innerItem in innerItems)
+                {
+                    if (outerKey.Equals(innerKeySelectors(innerItem)))
+                    {
+                        yield return resultSelectors(item,innerItem);
+                    }
+                }
+            }
+        }
     }
 }
