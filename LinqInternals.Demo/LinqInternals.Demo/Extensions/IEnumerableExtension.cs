@@ -13,5 +13,14 @@
                 }
             }
         }
+
+        public static IEnumerable<TResult> NewSelect<T, TResult>(this IEnumerable<T> items,
+            Func<T, TResult> selectors)
+        {
+            foreach(var item in items)
+            {
+                yield return selectors(item);
+            }
+        }
     }
 }
