@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cshap7.Demo.MathImprovement", "Cshap7.Demo.MathImprovement\Cshap7.Demo.MathImprovement.csproj", "{519915AC-779F-48FF-97AB-D88DFB98FC50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cshap7.Demo.MathImprovement", "Cshap7.Demo.MathImprovement\Cshap7.Demo.MathImprovement.csproj", "{519915AC-779F-48FF-97AB-D88DFB98FC50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cshap11.Improvement", "Cshap11.Improvement\Cshap11.Improvement.csproj", "{BFE209BB-E301-4FF0-92A8-EAFD6F8BFFA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cshap11.Improvement", "Cshap11.Improvement\Cshap11.Improvement.csproj", "{BFE209BB-E301-4FF0-92A8-EAFD6F8BFFA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadChannel.Demo", "ThreadChannel.Demo\ThreadChannel.Demo.csproj", "{28A5FEBE-A5EC-4666-9CB6-5AD4B5511A72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BFE209BB-E301-4FF0-92A8-EAFD6F8BFFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFE209BB-E301-4FF0-92A8-EAFD6F8BFFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFE209BB-E301-4FF0-92A8-EAFD6F8BFFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A5FEBE-A5EC-4666-9CB6-5AD4B5511A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A5FEBE-A5EC-4666-9CB6-5AD4B5511A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A5FEBE-A5EC-4666-9CB6-5AD4B5511A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A5FEBE-A5EC-4666-9CB6-5AD4B5511A72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
