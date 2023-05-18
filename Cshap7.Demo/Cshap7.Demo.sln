@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadChannel.Demo", "Threa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parrallel.Demo", "Parrallel.Demo\Parrallel.Demo.csproj", "{D726780A-76BD-4F52-821D-9B8ED0857056}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternMatch.Demo", "PatternMatch.Demo\PatternMatch.Demo.csproj", "{C753A9C1-F6C8-4180-97D4-17AEBDD88CC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D726780A-76BD-4F52-821D-9B8ED0857056}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D726780A-76BD-4F52-821D-9B8ED0857056}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D726780A-76BD-4F52-821D-9B8ED0857056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C753A9C1-F6C8-4180-97D4-17AEBDD88CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C753A9C1-F6C8-4180-97D4-17AEBDD88CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C753A9C1-F6C8-4180-97D4-17AEBDD88CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C753A9C1-F6C8-4180-97D4-17AEBDD88CC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
