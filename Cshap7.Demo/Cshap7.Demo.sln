@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cshap11.Improvement", "Csha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadChannel.Demo", "ThreadChannel.Demo\ThreadChannel.Demo.csproj", "{28A5FEBE-A5EC-4666-9CB6-5AD4B5511A72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parrallel.Demo", "Parrallel.Demo\Parrallel.Demo.csproj", "{D726780A-76BD-4F52-821D-9B8ED0857056}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{28A5FEBE-A5EC-4666-9CB6-5AD4B5511A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28A5FEBE-A5EC-4666-9CB6-5AD4B5511A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28A5FEBE-A5EC-4666-9CB6-5AD4B5511A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D726780A-76BD-4F52-821D-9B8ED0857056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D726780A-76BD-4F52-821D-9B8ED0857056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D726780A-76BD-4F52-821D-9B8ED0857056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D726780A-76BD-4F52-821D-9B8ED0857056}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
